@@ -1,7 +1,7 @@
 #include "LogEntry.h"
 #include <iostream>
 #include <string>
-
+#include "IPAddress.h"
 using namespace std;
 
 LogEntry log1(
@@ -15,8 +15,12 @@ LogEntry log1(
     "user logged in normally"
 );
 
+IPAddress ip1("192.168.0.11", 1);
+
 int main() {
-    cout << log1.getID() << endl;
+    cout << log1.getTimestamp() << endl;
     cout << log1.getUsername() << endl;
     cout << log1.getIpaddress() << endl;
+    ip1.displayIP();
+    return 0;
 }

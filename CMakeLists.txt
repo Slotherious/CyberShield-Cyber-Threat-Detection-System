@@ -7,4 +7,5 @@ add_executable(CyberShield
         main.cpp
         Alert.cpp
         LogEntry.cpp
+        IPAddress.cpp
 )
