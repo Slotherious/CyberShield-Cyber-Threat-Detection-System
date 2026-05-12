@@ -41,9 +41,6 @@ public:
     ActionType getAction();
     Status getStatus();
     string getDetails();
-
-
 };
-
 
 #endif //CYBER_SHIELD_LOGENTRY_H
