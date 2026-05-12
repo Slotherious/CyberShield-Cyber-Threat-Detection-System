@@ -6,4 +6,7 @@ set(CMAKE_CXX_STANDARD 20)
 add_executable(CyberShield
         main.cpp
         Alert.cpp
+        LogEntry.cpp
+        User.cpp
+        IPAddress.cpp
 )
