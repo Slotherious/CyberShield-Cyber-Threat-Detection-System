@@ -1,4 +1,5 @@
 #include "LogEntry.h"
+#include "Alert.h"
 #include <iostream>
 #include <string>
 
@@ -19,4 +20,13 @@ int main() {
     cout << log1.getID() << endl;
     cout << log1.getUsername() << endl;
     cout << log1.getIpaddress() << endl;
+
+    Alert a1(
+        "Possible brute force attack",
+        "HIGH",
+        "Ahmed",
+        "192.168.1.5"
+    );
+
+    a1.displayAlert();
 }
