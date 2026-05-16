@@ -8,4 +8,7 @@ add_executable(CyberShield
         Alert.cpp
         LogEntry.cpp
         IPAddress.cpp
+        SystemMonitor.cpp
+        RiskAnalyzer.cpp
+        ThreatDetector.cpp
 )
